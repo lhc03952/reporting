@@ -1,3 +1,4 @@
+#!C:\Program Files (x86)\Python37-32\python.exe
 import smtplib
 from email.mime.text import MIMEText
 from email.header import Header

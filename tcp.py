@@ -1,5 +1,5 @@
+#!C:\Program Files (x86)\Python37-32\python.exe
 #coding=utf-8
-#!"C:\Program Files (x86)\Python37-32\python.exe"
 # client
 import time
 import socket
@@ -18,7 +18,7 @@ def main():
             reporting.reporting()
             time.sleep(60)
 
-def 
-
 if __name__ == "__main__":
+    print("Content-type: text/html")
+    print("")
     main()
