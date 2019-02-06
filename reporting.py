@@ -5,6 +5,9 @@ from email.header import Header
 import datetime
 
 def reporting(ser_typ):
+    f = open('logs.belle', 'a+')
+    f.write(str(datetime.datetime.now())+'\n'+ser_typ+' 異常！\n')
+    f.close()
     smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
     smtpObj.starttls()
     smtpObj.login('hahahauccu11@gmail.com','z147896325')#第一個參數是電郵帳號，第二個參數是密碼
