@@ -15,7 +15,7 @@ def reporting(ser_typ):
     # 发送者
     message['From'] = Header("Reina Ragnarok", 'utf-8')
     # 接收者
-    message['To'] =  Header("测试", 'utf-8') 
+    message['To'] =  Header("Reina 維護團隊", 'utf-8') 
     subject = 'Reina Ragnarok伺服器偵測到異常！'
     message['Subject'] = Header(subject, 'utf-8')
     #利用sendmail 這個method 來寄出電郵，SMTP.sendmail(from_addr, to_addrs, msg, mail_options=[], rcpt_options=[])
