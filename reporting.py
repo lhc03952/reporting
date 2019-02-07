@@ -14,7 +14,7 @@ def reporting(ser_typ):
     to = ["77520tou@gmail.com", "lhc03952@gmail.com", "jamexup6@gmail.com"]  #收件者的電郵地址，為list資料型態
     #　電子郵件內文
     # 三个参数：第一个为文本内容，第二个 plain 设置文本格式，第三个 utf-8 设置编码
-    message = MIMEText('系統偵測到 '+ser_typ+' server 異常！\n'+(str(datetime.datetime.now())), 'plain', 'utf-8')
+    message = MIMEText('系統偵測到 '+ser_typ+' server 異常！\n'+(str(datetime.datetime.now())+'\nhttp://'), 'plain', 'utf-8')
     # 发送者
     message['From'] = Header("Reina Ragnarok", 'utf-8')
     # 接收者
