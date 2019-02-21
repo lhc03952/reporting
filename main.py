@@ -1,6 +1,3 @@
-#!C:\Program Files (x86)\Python37-32\python.exe
-#coding=utf-8
-# client
 import time
 import datetime
 import socket
